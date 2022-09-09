@@ -1,2 +1,6 @@
-#!/bin/bash
-gcc $CFILE -E -0 c
+#include <stdio.h>
+
+int main()
+{
+	printf("0-preprocessor");
+	return 0;
