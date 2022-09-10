@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
+ * main -in output in 32-bit and 64-bit gcc
  *
  * Return: Always 0 (Success)
  */
