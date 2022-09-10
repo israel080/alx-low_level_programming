@@ -5,18 +5,18 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-	char a;
+	short a;
 	int b;
 	long int c;
 	long long int d;
 	long int e;
 
-	printf("Size of a char: %c byte(s)\n", sizeof(a));
-	printf("Size of a int: %d byte(s)\n", sizeof(b));
-	printf("Size of a long int: %1d byte(s)\n", sizeof(c));
-	printf("Size of a long long int: %11d byte(s)\n", sizeof(d));
-	printf("Size of a long float: %d byte(s)\n", sizeof(e));
+	printf("Size of a short: %d bytes\n", sizeof(a));
+	printf("Size of a int: %d bytes\n", sizeof(b));
+	printf("Size of a long int: %d byte(\n", sizeof(c));
+	printf("Size of a long long int: %d bytes\n", sizeof(d));
+	printf("Size of a long float: %d bytes\n", sizeof(e));
 	return (0);
 }
