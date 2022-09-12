@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more haeders goes there */
 
 /**
  * main - Entry point
