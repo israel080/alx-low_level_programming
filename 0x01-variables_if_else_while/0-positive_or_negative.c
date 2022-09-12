@@ -6,7 +6,7 @@
  *
  * Desccription: using function main
  * this program is to prints programmingis zero, positive or negative
- * Return 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -26,5 +26,5 @@ int main(void)
 	{
 		printf ("%d is zero", n);
 	}
-	return 0;
+	return (0);
 }
