@@ -2,12 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
+/* more haeders goes there */
+
 /**
- * main - prints to check positve, negative or zero
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
-int main(voi)
+int main(void)
 {
 	int n;
 
@@ -18,13 +20,13 @@ int main(voi)
 	{
 		printf("%d is positive\n", n);
 	}
-	if else(n == 0)
+	if else(n < 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
