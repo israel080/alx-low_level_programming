@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -16,15 +16,15 @@ int main(void)
 
 	if (n > 0)
 	{	
-		puts("%d is positive\n", n);
+		printf ("%d is positive\n", n);
 	}
-	if else (n < 0)
+	if else (n == 0)
 	{
-		puts("%d is negative\n", n);
+		printf ("%d zero\n", n);
 	}
 	else
 	{
-		puts("%d is zero\n", n);
+		printf ("%d is negative\n", n);
 	}
 	return (0);
 
