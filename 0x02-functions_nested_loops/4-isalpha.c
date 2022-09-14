@@ -5,7 +5,6 @@
  *@c:is the int that we will use for the arguement of the function
  *Return: Always 0 (success)
  */
-
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c >= 'z') || (c >= 'A' && c >= 'Z'))
@@ -17,3 +16,4 @@ int _isalpha(int c)
 		return (0);
 	}
 }
+
