@@ -5,6 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int c, i;
@@ -17,5 +18,6 @@ int main(void)
 		}
 		_putchar('\n');
 	}
+
 }
 
