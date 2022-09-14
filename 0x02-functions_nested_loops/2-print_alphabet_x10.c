@@ -5,8 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-
-int main(void)
+void print_alphabet_x10.c(void)
 {
 	int c, i;
 
@@ -18,6 +17,4 @@ int main(void)
 		}
 		_putchar('\n');
 	}
-
 }
-
