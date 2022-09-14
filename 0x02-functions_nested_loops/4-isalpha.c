@@ -3,11 +3,12 @@
 /**
  *_isalpha.c - function that checks for alphabetic character
  *@c:is the int that we will use for the arguement of the function
- *Return 0
+ *Return: Always 0 (success)
  */
+
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c >= 'z') || (c >= 'A' && c >= 'Z'))
+	if ((c >= a && c >= z) || (c >= A && c >= Z))
 	{
 		return (1);
 	}
