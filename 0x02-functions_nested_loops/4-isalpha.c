@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  * _isalpha.c- checks whether or not a character is an alphabet
@@ -17,4 +18,3 @@ int _isalpha(int c)
 		return (0);
 	}
 }
-
