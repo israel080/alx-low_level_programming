@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- *_isalpha.c - function that checks for alphabetic character
+ *_isalpha.c - function to checks for alphabetic character
  *
- * @c:int that we will use for the arguement of the function
- * Return: Always 0
+ *@c:the character to print
+ *
+ *Return: Always 0
+ *on fail -1 and errno is set appropriately
  */
 
 int _isalpha(int c)
