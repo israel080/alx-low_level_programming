@@ -6,9 +6,9 @@
  * Return: 1 if it's positive, 0 if it's negative and -1 if it's negative
  */
 
-int print_sign(int n)
+int print_sign(int c)
 {
-	if(n > 0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
