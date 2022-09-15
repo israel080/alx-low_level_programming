@@ -7,9 +7,9 @@
  * Return: Always 0
  *
  */
-int _isalpha(int c)
+int _isalpha(int C)
 {
-	if ((c >= 'a' && c >= 'z') || (c >= 'A' && c >= 'Z'))
+	if ((c >= 97 && c <= 123) || (c >= 65 && c <= 91))
 	{
 		return (1);
 	}
@@ -18,3 +18,4 @@ int _isalpha(int c)
 		return (0);
 	}
 }
+
