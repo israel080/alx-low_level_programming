@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_isalpha.c - function that checks for alphabetic character
+ *_isalpha.c- checks whether or not a character is an alphabet
  *@c:is the int that we will use for the arguement of the function
  *Return: Always 0 (success)
  */
