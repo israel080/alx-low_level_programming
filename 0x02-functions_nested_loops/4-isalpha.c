@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_isalpha.c - function to checks for alphabetic character
+ *_isalpha - function to checks for alphabetic character
  *@c:the character to print
  *Return: Always 0
  *on fail -1 and errno is set appropriately
