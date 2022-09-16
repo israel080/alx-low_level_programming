@@ -9,12 +9,12 @@ int main(void)
 {
 	int i;
 
-	printf("infinite loop in coming:(\n");
+	printf("infinite loop in coming: (\n");
 
 	i = 0;
 	/**
-	* while (i < 10)
-	* {
+	*while (i < 10)
+	*{
 	*	putchar(i);
 	*}
 	*/
@@ -22,3 +22,4 @@ int main(void)
 
 	return (0);
 }
+
