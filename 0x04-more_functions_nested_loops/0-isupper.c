@@ -2,12 +2,15 @@
 
 /**
  * _isupper - function that checks for uppercase character.
- * @c: character to be tested
- * Return:1 whether 0 or not
+ * @c: character to be tested input of function
+ * Return: return 1 other wise 0
  */
 
 int _isupper(int c);
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	if (c >= A  && c <=  Z)
 	{
 		return (1);
+		return (0);
+	}
+}
