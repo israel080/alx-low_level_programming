@@ -1,1 +1,1 @@
-My second code
+writing my first function, nested loop
