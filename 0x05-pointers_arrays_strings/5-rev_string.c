@@ -3,7 +3,7 @@
 /**
  * rev_string - function that reverses a string.
  * @s: input string
- * Return: return string in reverse
+ * Return: void
  */
 
 void rev_string(char *s)
@@ -17,10 +17,10 @@ void rev_string(char *s)
 	}
 	k = 0;
 	j = i - 1;
-	while (k < j)
+	for (k < j)
 	{
 		temp = s[k];
-			s[k] = s[j];
+		s[k] = s[j];
 		s[j] = temp;
 		k++;
 		j--;
