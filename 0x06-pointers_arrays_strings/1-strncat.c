@@ -11,6 +11,9 @@
 
 char *_strncat(char *dest, char *src, int n);
 {                                                                              
-	strncat(*dest, *src, n);
+	char *desk = "Hello";
+	char *src = "World";
+
+	strncat(dest, src, n);
 	return (dest);
 }          
