@@ -1,6 +1,6 @@
 #include "main.h"
 #include <string.h>
-
+#include <stdio.h>
 /**
  * *_strncpy - function for copying purpose
  * @dest: parameter 1
@@ -11,6 +11,11 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	strcpy(dest, src, n);
+	char *dest[20] = "C program";
+	char *src[20];
+
+	strcpy(dest, src);
+
+	puts(dest);
 	return (dest);
 }
