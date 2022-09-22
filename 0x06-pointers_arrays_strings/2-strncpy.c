@@ -9,10 +9,8 @@
  * Return: string
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int 
 {
-	char *dest[20] = "Alx";
-	char *src[20];
 
 	strcpy(dest, src);
 	return (dest);
