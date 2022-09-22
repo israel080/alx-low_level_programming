@@ -9,7 +9,7 @@
  *Return: string
  */
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
 	char *ptr  = desk;
 
@@ -19,4 +19,4 @@ char *_strncat(char *dest, char *src, int n);
 		*ptr++ = *src++;
 	*ptr = 0
 		return (desk);
-}  
+}
