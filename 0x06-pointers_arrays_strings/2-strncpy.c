@@ -11,11 +11,9 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *dest[20] = "C program";
+	char *dest[20] = "Alx";
 	char *src[20];
 
 	strcpy(dest, src);
-
-	puts(dest);
 	return (dest);
 }
