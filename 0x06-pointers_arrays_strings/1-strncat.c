@@ -11,20 +11,12 @@
 
 char *_strncat(char *dest, char *src, int n);
 {
-	int dlen = 0, j = 0;
+	char *ptr  = desk;
 
-	while (dest[dlen])
-	{
-		dlen++;
-	}
-	while (j < n && src[j]);
-
-	{
-		dest[dlen] = src[j];
-		dlen++;
-		j++;
-	}
-	dest[dlen + n + 1] = '\0';
-
-	return (dest);
+	while (*ptr != 0)
+		ptr++;
+	while (*src != 0)
+		*ptr++ = *src++;
+	*ptr = 0
+		return (desk);
 }  
